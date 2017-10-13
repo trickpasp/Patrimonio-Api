@@ -17,7 +17,7 @@ public class Item {
 	private Integer id;
 	
 	@NotEmpty
-	private String etiquetas;
+	private String etiqueta;
 	
 	@NotEmpty
 	private String descricao;
@@ -57,12 +57,12 @@ public class Item {
 		this.id = id;
 	}
 
-	public String getEtiquetas() {
-		return etiquetas;
+	public String getEtiqueta() {
+		return etiqueta;
 	}
 
-	public void setEtiquetas(String etiquetas) {
-		this.etiquetas = etiquetas;
+	public void setEtiqueta(String etiqueta) {
+		this.etiqueta = etiqueta;
 	}
 
 	public String getDescricao() {
